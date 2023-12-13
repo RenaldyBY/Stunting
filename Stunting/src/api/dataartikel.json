@@ -1,0 +1,354 @@
+{
+  "artikel_stunting": [
+    {
+      "judul": "Stunting: Sebuah Tantangan Kesehatan Global",
+      "penulis": "Dr. Aulia Fitri",
+      "tanggal_terbit": "2023-02-15",
+      "konten": "Stunting menjadi masalah kesehatan masyarakat yang semakin mendalam di berbagai negara. Artikel ini membahas faktor-faktor yang berkontribusi terhadap stunting dan upaya-upaya pencegahan yang dapat diambil.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Dampak Stunting pada Perkembangan Anak",
+      "penulis": "Prof. Budi Utomo",
+      "tanggal_terbit": "2023-03-10",
+      "konten": "Stunting dapat memiliki dampak jangka panjang pada perkembangan fisik dan kognitif anak-anak. Artikel ini menelusuri konsekuensi dari stunting dan mengidentifikasi strategi untuk mendukung anak-anak yang terkena dampaknya.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Peran Gizi dalam Pencegahan Stunting",
+      "penulis": "Nutrisionis Fitriani",
+      "tanggal_terbit": "2023-04-05",
+      "konten": "Gizi yang baik memainkan peran kunci dalam mencegah stunting pada anak-anak. Artikel ini memberikan wawasan tentang pentingnya asupan gizi yang seimbang dan strategi untuk meningkatkan status gizi anak-anak.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Stunting: Tantangan Terbesar di Negara Berkembang",
+      "penulis": "Dr. Joko Susilo",
+      "tanggal_terbit": "2023-05-02",
+      "konten": "Negara-negara berkembang menghadapi stunting sebagai tantangan utama dalam upaya meningkatkan kesejahteraan anak-anak. Artikel ini menyelidiki penyebab-penyebab stunting dan memberikan solusi-solusi praktis.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Mengukur Tingkat Stunting: Metode dan Tantangan",
+      "penulis": "Prof. Siti Rahayu",
+      "tanggal_terbit": "2023-06-18",
+      "konten": "Pengukuran tingkat stunting merupakan langkah penting dalam penanganan masalah ini. Artikel ini membahas metode-metode yang digunakan dan tantangan-tantangan yang mungkin dihadapi dalam pengumpulan data stunting.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pentingnya Pendidikan Kesehatan dalam Mencegah Stunting",
+      "penulis": "Dewi Pratiwi",
+      "tanggal_terbit": "2023-07-10",
+      "konten": "Pendidikan kesehatan memainkan peran penting dalam memberikan informasi kepada masyarakat tentang cara mencegah stunting. Artikel ini menyoroti pentingnya kampanye pendidikan kesehatan di tingkat komunitas.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Stunting dan Kesejahteraan Keluarga",
+      "penulis": "Drs. Hadi Wijaya",
+      "tanggal_terbit": "2023-08-22",
+      "konten": "Stunting tidak hanya berdampak pada anak-anak tetapi juga pada kesejahteraan keluarga secara keseluruhan. Artikel ini membahas hubungan antara stunting dan faktor-faktor sosial ekonomi dalam keluarga.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pengaruh Lingkungan Terhadap Kejadian Stunting",
+      "penulis": "Dr. Rina Sari",
+      "tanggal_terbit": "2023-09-15",
+      "konten": "Lingkungan tempat tinggal anak-anak dapat mempengaruhi tingkat kejadian stunting. Artikel ini mengeksplorasi dampak lingkungan fisik dan sosial terhadap kesehatan anak-anak.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Stunting dan Keterkaitannya dengan Kemiskinan",
+      "penulis": "Prof. Haryono",
+      "tanggal_terbit": "2023-10-08",
+      "konten": "Kemiskinan sering kali menjadi faktor penyebab stunting. Artikel ini menganalisis hubungan antara tingkat kemiskinan dan tingkat stunting di berbagai komunitas.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Inisiatif Pemerintah dalam Menangani Stunting",
+      "penulis": "Dr. Indah Pratiwi",
+      "tanggal_terbit": "2023-11-30",
+      "konten": "Pemerintah mengambil langkah-langkah untuk mengatasi stunting melalui program-program kesehatan dan nutrisi. Artikel ini mengevaluasi inisiatif-inisiatif tersebut dan mencari cara untuk memperkuat upaya pencegahan stunting.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Stunting dan Peran Posyandu dalam Pemberantasan",
+      "penulis": "Dra. Ratna Dewi",
+      "tanggal_terbit": "2024-01-12",
+      "konten": "Posyandu memiliki peran penting dalam pemberantasan stunting di tingkat masyarakat. Artikel ini mengeksplorasi kontribusi Posyandu dan upaya-upaya yang dapat ditingkatkan untuk mencapai hasil yang lebih baik.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pengaruh Stunting terhadap Prestasi Belajar Anak",
+      "penulis": "Prof. Ahmad Santoso",
+      "tanggal_terbit": "2024-02-05",
+      "konten": "Stunting tidak hanya berdampak pada kesehatan fisik anak-anak, tetapi juga dapat mempengaruhi prestasi belajar mereka. Artikel ini membahas hubungan antara stunting dan performa akademis pada anak-anak.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Peran Ibu Hamil dalam Pencegahan Stunting",
+      "penulis": "Dr. Siti Aminah",
+      "tanggal_terbit": "2024-03-20",
+      "konten": "Kesehatan ibu hamil memiliki dampak besar pada pertumbuhan janin dan risiko stunting. Artikel ini membahas peran ibu hamil dalam pencegahan stunting dan tindakan-tindakan yang dapat diambil selama masa kehamilan.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Stunting: Tantangan di Perguruan Tinggi",
+      "penulis": "Prof. Bambang Susanto",
+      "tanggal_terbit": "2024-04-15",
+      "konten": "Stunting bukan hanya masalah pada tingkat anak-anak, tetapi juga di perguruan tinggi. Artikel ini mengeksplorasi tantangan dan solusi untuk mengatasi stunting di kalangan mahasiswa.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Teknologi dalam Pemantauan Stunting Anak",
+      "penulis": "Dr. Rina Wahyu",
+      "tanggal_terbit": "2024-05-10",
+      "konten": "Pemanfaatan teknologi dapat mempermudah pemantauan pertumbuhan anak dan mendeteksi stunting lebih dini. Artikel ini membahas perkembangan teknologi yang dapat digunakan untuk mengatasi stunting.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Stunting: Dampak pada Ekonomi dan Produktivitas",
+      "penulis": "Eko Saputro, SE",
+      "tanggal_terbit": "2024-06-25",
+      "konten": "Stunting tidak hanya memengaruhi kesehatan, tetapi juga berdampak pada ekonomi dan produktivitas suatu bangsa. Artikel ini menganalisis dampak ekonomi dari masalah stunting.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Kolaborasi Sektor Swasta untuk Mengatasi Stunting",
+      "penulis": "Ir. Maya Sari",
+      "tanggal_terbit": "2024-07-18",
+      "konten": "Peran sektor swasta dalam upaya mengatasi stunting semakin diakui. Artikel ini membahas kerja sama antara pemerintah dan sektor swasta untuk menciptakan solusi berkelanjutan.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Stunting dan Kebijakan Pangan Nasional",
+      "penulis": "Dr. Andi Kusuma",
+      "tanggal_terbit": "2024-08-12",
+      "konten": "Ketersediaan pangan nasional memiliki kaitan erat dengan tingkat stunting. Artikel ini mengulas kebijakan pangan nasional dan upaya untuk meningkatkan akses masyarakat terhadap pangan bergizi.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Peran Masyarakat dalam Pencegahan Stunting",
+      "penulis": "Siti Nurjanah, S.Sos",
+      "tanggal_terbit": "2024-09-28",
+      "konten": "Partisipasi aktif masyarakat sangat penting dalam upaya pencegahan stunting. Artikel ini membahas peran masyarakat dan bagaimana mereka dapat berkontribusi dalam mengatasi masalah stunting.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Stunting: Tantangan di Era Digital",
+      "penulis": "Drs. Anwar Malik",
+      "tanggal_terbit": "2024-10-22",
+      "konten": "Dalam era digital, tantangan baru muncul dalam penanganan stunting. Artikel ini mengeksplorasi dampak teknologi dan tantangan yang dihadapi dalam upaya mengatasi stunting di era digital.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Stunting: Tantangan Kesehatan Anak di Pedesaan",
+      "penulis": "Dr. Irfan Santoso",
+      "tanggal_terbit": "2024-11-15",
+      "konten": "Anak-anak di pedesaan sering menghadapi tantangan kesehatan yang unik terkait stunting. Artikel ini membahas faktor-faktor khusus dan solusi untuk mengatasi stunting di lingkungan pedesaan.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pengaruh Stunting terhadap Imunitas Anak",
+      "penulis": "Prof. Dini Pratiwi",
+      "tanggal_terbit": "2024-12-08",
+      "konten": "Stunting dapat mempengaruhi sistem kekebalan tubuh anak-anak. Artikel ini menjelaskan dampak stunting pada imunitas dan cara meningkatkan ketahanan tubuh anak-anak.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Peran Media Massa dalam Kesadaran Stunting",
+      "penulis": "Dian Kusuma, S.Hum",
+      "tanggal_terbit": "2025-01-20",
+      "konten": "Media massa memiliki peran penting dalam meningkatkan kesadaran masyarakat tentang stunting. Artikel ini membahas bagaimana media dapat menjadi alat efektif untuk menyampaikan informasi tentang pencegahan stunting.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Stunting dan Faktor Genetik",
+      "penulis": "Dr. Mega Pratiwi",
+      "tanggal_terbit": "2025-02-12",
+      "konten": "Faktor genetik juga dapat memainkan peran dalam kejadian stunting. Artikel ini mengeksplorasi hubungan antara faktor genetik dan risiko stunting pada anak-anak.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Peran Pangan Lokal dalam Mencegah Stunting",
+      "penulis": "Ir. Bambang Susilo",
+      "tanggal_terbit": "2025-03-18",
+      "konten": "Mengutamakan pangan lokal dapat menjadi strategi efektif dalam pencegahan stunting. Artikel ini membahas pentingnya pangan lokal dan dampaknya pada pertumbuhan anak-anak.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Stunting dan Kesehatan Mental Anak",
+      "penulis": "Prof. Dewi Aisyah",
+      "tanggal_terbit": "2025-04-10",
+      "konten": "Stunting tidak hanya memengaruhi kesehatan fisik, tetapi juga dapat berdampak pada kesehatan mental anak-anak. Artikel ini membahas hubungan antara stunting dan kesehatan mental pada masa perkembangan.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pentingnya Akses Air Bersih dalam Pencegahan Stunting",
+      "penulis": "Dr. Hendra Wijaya",
+      "tanggal_terbit": "2025-05-25",
+      "konten": "Akses air bersih berperan penting dalam pencegahan stunting. Artikel ini membahas dampak air bersih pada kesehatan anak-anak dan upaya untuk meningkatkan aksesnya di berbagai daerah.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Stunting dan Keterkaitannya dengan Kurangnya Aktivitas Fisik",
+      "penulis": "Fitriani Sari, S.Pd",
+      "tanggal_terbit": "2025-06-18",
+      "konten": "Kurangnya aktivitas fisik juga dapat berkontribusi pada stunting. Artikel ini mengeksplorasi hubungan antara tingkat aktivitas fisik dan kejadian stunting pada anak-anak.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Peran Sekolah dalam Program Pencegahan Stunting",
+      "penulis": "Prof. Ahmad Wibowo",
+      "tanggal_terbit": "2025-07-12",
+      "konten": "Sekolah memiliki potensi besar untuk berperan dalam program pencegahan stunting. Artikel ini membahas strategi dan peran sekolah dalam mendukung pertumbuhan dan perkembangan anak-anak.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Stunting dan Tantangan Penanganan Kesehatan di Daerah Terpencil",
+      "penulis": "Dr. Maya Dewi",
+      "tanggal_terbit": "2025-08-28",
+      "konten": "Daerah terpencil sering menghadapi tantangan unik dalam penanganan kesehatan, termasuk stunting. Artikel ini mengeksplorasi cara mengatasi stunting di daerah terpencil dan peran pemerintah dalam mendukungnya.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pentingnya ASI Eksklusif dalam Pencegahan Stunting",
+      "penulis": "Dr. Ani Kartika",
+      "tanggal_terbit": "2025-09-20",
+      "konten": "Memberikan ASI eksklusif pada bayi merupakan langkah awal yang krusial dalam pencegahan stunting. Artikel ini membahas manfaat ASI eksklusif dan bagaimana mempromosikannya di masyarakat.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Peran Posyandu dalam Monitoring Pertumbuhan Anak",
+      "penulis": "Dra. Susanti",
+      "tanggal_terbit": "2025-10-15",
+      "konten": "Posyandu memiliki peran penting dalam memantau pertumbuhan anak-anak dan mendeteksi dini gejala stunting. Artikel ini membahas cara efektif Posyandu berkontribusi dalam pencegahan stunting.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pentingnya Suplemen Gizi untuk Balita",
+      "penulis": "Dr. Andi Cahyono",
+      "tanggal_terbit": "2025-11-10",
+      "konten": "Pemberian suplemen gizi pada balita dapat membantu mencegah stunting. Artikel ini membahas jenis-jenis suplemen yang diperlukan dan cara pemberiannya yang efektif.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pentingnya Pendidikan Gizi untuk Orangtua",
+      "penulis": "Prof. Siti Nurlela",
+      "tanggal_terbit": "2025-12-05",
+      "konten": "Memberikan pendidikan gizi kepada orangtua sangat penting untuk mencegah stunting pada anak-anak. Artikel ini mengeksplorasi bagaimana pendidikan gizi dapat diperluas di berbagai komunitas.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pencegahan Stunting Melalui Program Pemberian Makanan Tambahan",
+      "penulis": "Dra. Dian Santika",
+      "tanggal_terbit": "2026-01-18",
+      "konten": "Program pemberian makanan tambahan dapat menjadi solusi dalam pencegahan stunting. Artikel ini membahas implementasi dan keefektifan program semacam itu.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Peran Keluarga dalam Pemberian Makanan Bergizi",
+      "penulis": "Prof. Hendro Prabowo",
+      "tanggal_terbit": "2026-02-12",
+      "konten": "Keluarga memiliki peran kunci dalam memberikan makanan bergizi kepada anak-anak. Artikel ini membahas cara keluarga dapat berkontribusi dalam pencegahan stunting melalui pola makan yang sehat.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pentingnya Akses Air Bersih dalam Pencegahan Stunting",
+      "penulis": "Ir. Ratna Susanti",
+      "tanggal_terbit": "2026-03-22",
+      "konten": "Akses air bersih bukan hanya penting untuk konsumsi minuman, tetapi juga untuk kebersihan dan persiapan makanan. Artikel ini menyoroti bagaimana air bersih dapat menjadi faktor kunci dalam pencegahan stunting.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pentingnya Vaksinasi dalam Pencegahan Stunting",
+      "penulis": "Dr. Irfan Wibowo",
+      "tanggal_terbit": "2026-04-15",
+      "konten": "Vaksinasi anak-anak juga dapat berperan dalam pencegahan stunting. Artikel ini menjelaskan hubungan antara vaksinasi dan pertumbuhan anak yang sehat.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pentingnya Kesehatan Mental Anak dalam Pencegahan Stunting",
+      "penulis": "Dra. Maya Pratiwi",
+      "tanggal_terbit": "2026-05-10",
+      "konten": "Kesehatan mental anak juga memiliki dampak pada pertumbuhan dan perkembangan mereka. Artikel ini membahas pentingnya mendukung kesehatan mental anak-anak sebagai bagian dari pencegahan stunting.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pencegahan Stunting Melalui Program Pemberdayaan Perempuan",
+      "penulis": "Prof. Bambang Santoso",
+      "tanggal_terbit": "2026-06-25",
+      "konten": "Pemberdayaan perempuan dapat membantu mengatasi faktor-faktor sosial ekonomi yang berkontribusi pada stunting. Artikel ini membahas peran program pemberdayaan perempuan dalam pencegahan stunting.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pencegahan Stunting Melalui Program Posyandu Lansia",
+      "penulis": "Dra. Retno Sulistyo",
+      "tanggal_terbit": "2026-07-20",
+      "konten": "Posyandu tidak hanya berfokus pada anak-anak, tetapi juga dapat menjadi sarana pencegahan stunting pada lansia. Artikel ini membahas program Posyandu khusus untuk lansia sebagai langkah pencegahan stunting.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pentingnya Konseling Gizi bagi Ibu Hamil",
+      "penulis": "Dr. Andini Kusuma",
+      "tanggal_terbit": "2026-08-15",
+      "konten": "Konseling gizi untuk ibu hamil dapat memberikan informasi yang sangat berharga untuk pencegahan stunting. Artikel ini membahas pentingnya konseling gizi dan dampaknya pada kesehatan bayi yang sedang dikandung.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Peran Pendidikan Sekolah dalam Kesadaran Stunting",
+      "penulis": "Prof. Hadi Santoso",
+      "tanggal_terbit": "2026-09-10",
+      "konten": "Pendidikan tentang pencegahan stunting dapat diperluas melalui program-program sekolah. Artikel ini membahas bagaimana sekolah dapat berperan dalam meningkatkan kesadaran dan pengetahuan tentang stunting di kalangan siswa.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pentingnya Pemberdayaan Masyarakat dalam Pencegahan Stunting",
+      "penulis": "Ir. Wijaya Kusuma",
+      "tanggal_terbit": "2026-10-05",
+      "konten": "Pencegahan stunting tidak hanya tanggung jawab pemerintah atau lembaga kesehatan, tetapi juga memerlukan partisipasi aktif masyarakat. Artikel ini membahas peran pemberdayaan masyarakat dalam pencegahan stunting.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pencegahan Stunting Melalui Program Berkebun Komunitas",
+      "penulis": "Dra. Nia Susanti",
+      "tanggal_terbit": "2026-11-18",
+      "konten": "Berkebun komunitas dapat menjadi cara inovatif untuk meningkatkan ketersediaan pangan bergizi dan mengurangi stunting. Artikel ini membahas pelaksanaan program berkebun komunitas sebagai langkah pencegahan stunting.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Peran Kader Kesehatan dalam Pencegahan Stunting",
+      "penulis": "Dr. Budi Hartono",
+      "tanggal_terbit": "2026-12-10",
+      "konten": "Kader kesehatan memiliki peran kunci dalam menyampaikan informasi dan memberikan dukungan dalam program pencegahan stunting. Artikel ini membahas peran dan pelatihan kader kesehatan.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pencegahan Stunting Melalui Program Stimulasi Pertumbuhan Anak",
+      "penulis": "Prof. Rina Kusuma",
+      "tanggal_terbit": "2027-01-22",
+      "konten": "Program stimulasi pertumbuhan anak dapat membantu mencegah keterlambatan pertumbuhan dan stunting. Artikel ini membahas pelaksanaan program stimulasi pertumbuhan sebagai langkah pencegahan stunting.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pentingnya Sanitasi Lingkungan dalam Pencegahan Stunting",
+      "penulis": "Ir. Ahmad Basuki",
+      "tanggal_terbit": "2027-02-15",
+      "konten": "Kebersihan lingkungan sangat penting dalam pencegahan stunting. Artikel ini membahas peran sanitasi lingkungan dalam mencegah penyakit dan stunting pada anak-anak.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pencegahan Stunting Melalui Program Kurikulum Gizi di Sekolah",
+      "penulis": "Dr. Retno Wulandari",
+      "tanggal_terbit": "2027-03-28",
+      "konten": "Pengintegrasian kurikulum gizi di sekolah dapat membantu meningkatkan pengetahuan anak-anak tentang pola makan sehat. Artikel ini membahas implementasi program kurikulum gizi sebagai langkah pencegahan stunting.",
+      "foto": "https://picsum.photos/200"
+    },
+    {
+      "judul": "Pentingnya Olahraga dalam Pertumbuhan dan Pencegahan Stunting",
+      "penulis": "Prof. Agus Setiawan",
+      "tanggal_terbit": "2027-04-20",
+      "konten": "Olahraga bukan hanya penting untuk kesehatan fisik, tetapi juga dapat membantu pertumbuhan anak dan pencegahan stunting. Artikel ini membahas peran olahraga dalam pencegahan stunting.",
+      "foto": "https://picsum.photos/200"
+    }
+  ]
+}
