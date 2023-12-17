@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "firstName": "benoni",
+      "lastName": "manase",
+      "email": "ben@gmail.com",
+      "password": "ben12345",
+      "token": "t94qwyve5uk9aur7zkxqhv",
+      "id": 2
+    },
+    {
+      "firstName": "deni",
+      "lastName": "mus",
+      "email": "deni@gmail.com",
+      "password": "deni12345",
+      "token": "9mv513bc1267elbpbtvl9n",
+      "id": 3
+    },
+    {
+      "firstName": "Ahmad farhan",
+      "lastName": "Kholik",
+      "email": "han@gmail.com",
+      "password": "han12345",
+      "token": "szyx3ab746bo1rqhof7sl",
+      "id": 4
+    }
+  ]
+}
