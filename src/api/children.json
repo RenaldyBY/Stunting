@@ -1,0 +1,28 @@
+{
+  "children": [
+    {
+      "name": "Rudi salim nugroho",
+      "gender": "Male",
+      "age": "1",
+      "height": "72",
+      "weight": "9",
+      "id": 1
+    },
+    {
+      "name": "dian",
+      "gender": "Female",
+      "age": "1",
+      "height": "100",
+      "weight": "5",
+      "id": 2
+    },
+    {
+      "name": "saputra",
+      "gender": "Male",
+      "age": "1",
+      "height": "71",
+      "weight": "10",
+      "id": 3
+    }
+  ]
+}
