@@ -2,26 +2,31 @@ const About = () => {
     const team = [
       {
         nama: "Ahmad Farhan Kholik",
+        role: "Orthodontist",
         image:
           "https://greatnusa.com/wp-content/uploads/2023/05/Contoh-profesionalisme-1200x900.webp",
       },
       {
         nama: "Hanifah Eka Cahyani",
+        role: "Orthodontist",
         image:
           "https://greatnusa.com/wp-content/uploads/2023/05/Contoh-profesionalisme-1200x900.webp",
       },
       {
         nama: "Hesti Lusita",
+        role: "Orthodontist",
         image:
           "https://greatnusa.com/wp-content/uploads/2023/05/Contoh-profesionalisme-1200x900.webp",
       },
       {
         nama: "Moch Dapa Adhari",
+        role: "Orthodontist",
         image:
           "https://greatnusa.com/wp-content/uploads/2023/05/Contoh-profesionalisme-1200x900.webp",
       },
       {
         nama: "Renaldy Baleano Yohzain",
+        role: "Orthodontist",
         image:
           "https://greatnusa.com/wp-content/uploads/2023/05/Contoh-profesionalisme-1200x900.webp",
       },
