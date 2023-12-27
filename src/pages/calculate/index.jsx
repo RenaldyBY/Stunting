@@ -1,8 +1,8 @@
 import React from "react";
-import Calculate from "../../components/calcuate/Calculate";
-import Banner from "../../components/calcuate/Banner";
-import Table from "../../components/calcuate/Table";
-import Clustering from "../../components/calcuate/Clustering";
+import Calculate from "../../components/calculate/Calculate";
+import Banner from "../../components/calculate/Banner";
+import Table from "../../components/calculate/Table";
+import Clustering from "../../components/calculate/Clustering";
 
 const index = () => {
   return (

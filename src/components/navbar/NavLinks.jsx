@@ -49,7 +49,7 @@ const NavLinks = ({ closeMobileDropdown }) => {
             </h1>
             {link.submenu && (
               <div>
-                <div className="absolute hidden top-20 group-hover:md:block hover:md:block">
+                <div className="absolute z-30 hidden top-20 group-hover:md:block hover:md:block">
                   <div className="py-3">
                     <div className="absolute w-4 h-4 mt-1 rotate-45 bg-[#E9E3FF]  left-3"></div>
                   </div>

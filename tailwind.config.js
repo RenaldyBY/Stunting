@@ -13,7 +13,7 @@ export default {
         poppins: "Poppins",
       },
       backgroundImage: {
-        Ellips: "url(./src/assets/circlebg/Ellipse1.png)",
+        Bgcover: "url(./src/assets/hero.png)",
       },
     },
   },

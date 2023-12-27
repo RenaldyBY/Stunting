@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/stuntguard f.png";
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
             duration={500}
             className="w-32 col-span-2 mb-12 cursor-pointer md:col-span-1"
           >
-            <img src={Logo} alt="Logo" className="-mt-10 h-28" />
+            <img src={Logo} alt="Logo" className="w-32 -mt-10" />
           </Link>
           <nav className="mb-8">
             <p className="mb-3 text-xs font-bold tracking-wider uppercase text-black1">

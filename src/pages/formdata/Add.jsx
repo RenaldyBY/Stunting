@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Swal from "sweetalert2";
 import axios from "axios";
 import { Button } from "@chakra-ui/react";
+import femaleData from "../../components/calculate/femaleData";
+import maleData from "../../components/calculate/maleData";
 
 const AddChildForm = () => {
   const [childData, setChildData] = useState({
@@ -35,6 +37,87 @@ const AddChildForm = () => {
     return Object.keys(validationErrors).length === 0;
   };
 
+  const checkStunting = (age, height, weight, gender) => {
+    const data = gender.toLowerCase() === "male" ? maleData : femaleData;
+    const range = data.find((item) => item.age === age);
+    const tbBbRatio = height / weight;
+
+    if (weight < range.weight.min && height < range.height.min) {
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message:
+          "Anak mengalami stunting. Berat dan tinggi anak kurang dari batas normal.",
+      };
+    } else if (weight < range.weight.min && height > range.height.max) {
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message:
+          "Anak mungkin kurang gizi. Tinggi anak di atas rata-rata, tapi berat anak kurang.",
+      };
+    } else if (weight > range.weight.max && height < range.height.min) {
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message:
+          "Anak mengalami stunting. Tinggi dan berat badan anak tidak ideal.",
+      };
+    } else if (weight > range.weight.max && height > range.height.max) {
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message:
+          "Anak tumbuh normal. Tinggi anak di atas rata-rata, tapi berat anak sedikit berlebihan.",
+      };
+    } else if (height < range.height.min) {
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message:
+          "Anak mungkin mengalami stunting. Berat badan anak ideal, tapi tinggi anak kurang.",
+      };
+    } else if (weight < range.weight.min) {
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message:
+          "Anak mungkin mengalami stunting. Tinggi badan anak ideal, tapi berat anak kurang.",
+      };
+    } else if (weight > range.weight.max) {
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message: "Anak tumbuh normal. Berat badan anak berlebihan.",
+      };
+    } else if (height > range.height.max) {
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message: "Anak tumbuh normal. Tinggi anak di atas rata-rata.",
+      };
+    } else if (
+      height >= range.height.min &&
+      height <= range.height.max &&
+      weight >= range.weight.min &&
+      weight <= range.weight.max
+    ) {
+      // Jika tinggi dan berat badan anak berada dalam rentang normal
+      return {
+        isStunting: false,
+        tbBbRatio,
+        message: "Anak tumbuh dengan normal.",
+      };
+    } else {
+      // Jika tinggi atau berat badan anak di luar rentang normal
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message: "Anak mengalami stunting.",
+      };
+    }
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -44,16 +127,33 @@ const AddChildForm = () => {
     if (isValid) {
       try {
         setLoading(true);
-        // Simulate a delay for demonstration purposes
-        await new Promise((resolve) => setTimeout(resolve, 2000));
 
-        // Perform the registration logic
-        const response = await axios.post(
-          "http://localhost:3000/children",
-          childData
+        // Perform the registration logic and check stunting
+        const stuntingResult = checkStunting(
+          parseInt(childData.age),
+          parseFloat(childData.height),
+          parseFloat(childData.weight),
+          childData.gender
         );
 
+        // Extract the message from stuntingResult
+        const { message, tbBbRatio } = stuntingResult;
+
+        const roundedTbRatio = Number(tbBbRatio.toFixed(3));
+
+        // Send a POST request to add child data
+        const response = await axios.post("http://localhost:3000/children", {
+          name: childData.name,
+          gender: childData.gender === "Male" ? "Laki-Laki" : "Perempuan",
+          age: childData.age,
+          height: childData.height,
+          weight: childData.weight,
+          result: message,
+          tbRatio: roundedTbRatio,
+        });
+
         if (response.status === 201) {
+          // Display success message
           Swal.fire({
             icon: "success",
             title: "Child Data Added Successfully",
@@ -69,6 +169,8 @@ const AddChildForm = () => {
             height: "",
             weight: "",
           });
+
+          // Redirect to the child data page after a delay
           setTimeout(() => {
             window.location.href = "/dataanak";
           }, 2000);
@@ -89,6 +191,7 @@ const AddChildForm = () => {
           text: "Please try again",
         });
       } finally {
+        // Reset loading state
         setLoading(false);
       }
     }
@@ -99,6 +202,11 @@ const AddChildForm = () => {
       ...childData,
       [field]: value,
     });
+  };
+
+  const handleCancel = () => {
+    // Redirect to the monitoring page without making any changes
+    window.location.href = "/dataanak";
   };
 
   return (
@@ -137,12 +245,12 @@ const AddChildForm = () => {
                 name="gender"
                 value="Male"
                 checked={childData.gender === "Male"}
-                onChange={() => handleChange("gender", "Male")}
+                onChange={(event) => handleChange("gender", event.target.value)}
                 className="mr-2"
                 required
               />
               <label htmlFor="male" className="mr-4">
-                Male
+                Laki-Laki
               </label>
 
               <input
@@ -151,11 +259,11 @@ const AddChildForm = () => {
                 name="gender"
                 value="Female"
                 checked={childData.gender === "Female"}
-                onChange={() => handleChange("gender", "Female")}
+                onChange={(event) => handleChange("gender", event.target.value)}
                 className="mr-2"
                 required
               />
-              <label htmlFor="female">Female</label>
+              <label htmlFor="female">Perempuan</label>
             </div>
             {errors.gender && (
               <p className="text-sm text-red-500">{errors.gender}</p>
@@ -230,6 +338,13 @@ const AddChildForm = () => {
             loadingText="Adding Child Data..."
           >
             Tambahkan data
+          </Button>
+
+          <Button
+            className="w-full p-2 mt-3 text-white bg-red-500 rounded hover:bg-red-600"
+            onClick={handleCancel}
+          >
+            Batal
           </Button>
         </form>
       </div>

@@ -1,6 +1,6 @@
-// ArticleList.js
-
+// Article.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ArticleList = ({ articles }) => {
   return (
@@ -8,9 +8,12 @@ const ArticleList = ({ articles }) => {
       <ul>
         {articles.map((article, index) => (
           <li key={index} className="mb-4">
-            <h2 className="text-xl font-semibold cursor-pointer">
+            <Link
+              to={`/article/${article.id}`}
+              className="text-xl font-semibold cursor-pointer"
+            >
               {article.judul}
-            </h2>
+            </Link>
             <p className="text-gray-600">{article.konten}</p>
             <hr className="my-2" />
           </li>

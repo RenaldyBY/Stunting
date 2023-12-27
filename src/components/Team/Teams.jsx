@@ -1,28 +1,29 @@
 // teams.jsx
+import Dokter1 from "../../assets/doktor1.png";
+import Dokter2 from "../../assets/doktor2.png";
+import Dokter3 from "../../assets/doktor3.png";
+import Dokter4 from "../../assets/doktor4.png";
+import Dokter5 from "../../assets/doktor5.png";
+
 export const Teams = [
   {
-    name: "Name",
-    image:
-      "https://png.pngtree.com/thumb_back/fw800/background/20230810/pngtree-cute-cat-kitten-photography-wallpaper-hd-image_13082970.jpg",
+    name: "Dr. Grace Michelle",
+    image: Dokter1,
   },
   {
-    name: "name",
-    image:
-      "https://png.pngtree.com/thumb_back/fw800/background/20230810/pngtree-cute-cat-kitten-photography-wallpaper-hd-image_13082970.jpg",
+    name: "Dr. Rebecca Anne",
+    image: Dokter2,
   },
   {
-    name: "Name",
-    image:
-      "https://png.pngtree.com/thumb_back/fw800/background/20230810/pngtree-cute-cat-kitten-photography-wallpaper-hd-image_13082970.jpg",
+    name: "DR. Sarah Elizabeth",
+    image: Dokter3,
   },
   {
-    name: "Name",
-    image:
-      "https://png.pngtree.com/thumb_back/fw800/background/20230810/pngtree-cute-cat-kitten-photography-wallpaper-hd-image_13082970.jpg",
+    name: "Dr. Nurul Indah",
+    image: Dokter4,
   },
   {
-    name: "Name",
-    image:
-      "https://png.pngtree.com/thumb_back/fw800/background/20230810/pngtree-cute-cat-kitten-photography-wallpaper-hd-image_13082970.jpg",
+    name: "Dr. Aisha Farhana",
+    image: Dokter5,
   },
 ];

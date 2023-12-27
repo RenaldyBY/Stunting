@@ -3,6 +3,8 @@ import Swal from "sweetalert2";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import { Button, Spinner } from "@chakra-ui/react";
+import femaleData from "../../components/calculate/femaleData";
+import maleData from "../../components/calculate/maleData";
 
 const EditChildForm = () => {
   const { id } = useParams(); // Get the child ID from the URL
@@ -51,6 +53,87 @@ const EditChildForm = () => {
     return Object.keys(validationErrors).length === 0;
   };
 
+  const checkStunting = (age, height, weight, gender) => {
+    const data = gender.toLowerCase() === "male" ? maleData : femaleData;
+    const range = data.find((item) => item.age === age);
+    const tbBbRatio = height / weight;
+
+    if (weight < range.weight.min && height < range.height.min) {
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message:
+          "Anak mengalami stunting. Berat dan tinggi anak kurang dari batas normal.",
+      };
+    } else if (weight < range.weight.min && height > range.height.max) {
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message:
+          "Anak mungkin kurang gizi. Tinggi anak di atas rata-rata, tapi berat anak kurang.",
+      };
+    } else if (weight > range.weight.max && height < range.height.min) {
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message:
+          "Anak mengalami stunting. Tinggi dan berat badan anak tidak ideal.",
+      };
+    } else if (weight > range.weight.max && height > range.height.max) {
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message:
+          "Anak tumbuh normal. Tinggi anak di atas rata-rata, tapi berat anak sedikit berlebihan.",
+      };
+    } else if (height < range.height.min) {
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message:
+          "Anak mungkin mengalami stunting. Berat badan anak ideal, tapi tinggi anak kurang.",
+      };
+    } else if (weight < range.weight.min) {
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message:
+          "Anak mungkin mengalami stunting. Tinggi badan anak ideal, tapi berat anak kurang.",
+      };
+    } else if (weight > range.weight.max) {
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message: "Anak tumbuh normal. Berat badan anak berlebihan.",
+      };
+    } else if (height > range.height.max) {
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message: "Anak tumbuh normal. Tinggi anak di atas rata-rata.",
+      };
+    } else if (
+      height >= range.height.min &&
+      height <= range.height.max &&
+      weight >= range.weight.min &&
+      weight <= range.weight.max
+    ) {
+      // Jika tinggi dan berat badan anak berada dalam rentang normal
+      return {
+        isStunting: false,
+        tbBbRatio,
+        message: "Anak tumbuh dengan normal.",
+      };
+    } else {
+      // Jika tinggi atau berat badan anak di luar rentang normal
+      return {
+        isStunting: true,
+        tbBbRatio,
+        message: "Anak mengalami stunting.",
+      };
+    }
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -60,36 +143,65 @@ const EditChildForm = () => {
       try {
         setLoading(true);
 
-        // Use a PUT request for updating data
-        await axios.put(`http://localhost:3000/children/${id}`, childData);
+        // Perform the edit logic and check stunting
+        const stuntingResult = checkStunting(
+          parseInt(childData.age),
+          parseFloat(childData.height),
+          parseFloat(childData.weight),
+          childData.gender
+        );
 
-        // Simulate a delay to show the spinner
-        await new Promise((resolve) => setTimeout(resolve, 1000));
+        // Extract the message from stuntingResult
+        const { message, tbBbRatio } = stuntingResult;
 
-        Swal.fire({
-          icon: "success",
-          title: "Child Data Updated Successfully",
-          showConfirmButton: false,
-          timer: 1500,
-        });
+        // Round TB ratio to three decimal places
+        const roundedTbRatio = Number(tbBbRatio.toFixed(3));
 
-        // Redirect to the monitoring page after successful update
-        setTimeout(() => {
-          window.location.href = "/dataanak";
-        }, 2000);
+        // Send a PUT request to update child data
+        const response = await axios.put(
+          `http://localhost:3000/children/${id}`,
+          {
+            name: childData.name,
+            gender: childData.gender === "Male" ? "Laki-Laki" : "Perempuan",
+            age: childData.age,
+            height: childData.height,
+            weight: childData.weight,
+            result: message,
+            tbRatio: roundedTbRatio,
+          }
+        );
 
-        try {
-          // kode untuk memperbarui data anak
-        } catch (error) {
-          console.error("Kesalahan saat memperbarui data anak:", error);
+        if (response.status === 200) {
+          // Display success message
+          Swal.fire({
+            icon: "success",
+            title: "Child Data Updated Successfully",
+            showConfirmButton: false,
+            timer: 1500,
+          });
+
+          // Redirect to the child data page after a delay
+          setTimeout(() => {
+            window.location.href = "/dataanak";
+          }, 2000);
+        } else {
+          // Display an error message if the update fails
+          Swal.fire({
+            icon: "error",
+            title: "Failed to Update Child Data",
+            text: "Please try again",
+          });
         }
-
+      } catch (error) {
+        // Display an error message if an unexpected error occurs
+        console.error("Error:", error);
         Swal.fire({
           icon: "error",
-          title: "Failed to Update Child Data",
+          title: "An error occurred",
           text: "Please try again",
         });
       } finally {
+        // Reset loading state
         setLoading(false);
       }
     }
@@ -100,6 +212,11 @@ const EditChildForm = () => {
       ...childData,
       [field]: value,
     });
+  };
+
+  const handleCancel = () => {
+    // Redirect to the monitoring page without making any changes
+    window.location.href = "/dataanak";
   };
 
   return (
@@ -140,7 +257,7 @@ const EditChildForm = () => {
               required
             />
             <label htmlFor="male" className="mr-4">
-              Male
+              Laki-Laki
             </label>
 
             <input
@@ -153,7 +270,7 @@ const EditChildForm = () => {
               className="mr-2"
               required
             />
-            <label htmlFor="female">Female</label>
+            <label htmlFor="female">Perempuan</label>
           </div>
           {errors.gender && (
             <p className="text-sm text-red-500">{errors.gender}</p>
@@ -233,6 +350,13 @@ const EditChildForm = () => {
           }
         >
           Update Data
+        </Button>
+
+        <Button
+          className="w-full p-2 mt-3 text-white bg-red-500 rounded hover:bg-red-600"
+          onClick={handleCancel}
+        >
+          Batal
         </Button>
       </form>
     </div>
