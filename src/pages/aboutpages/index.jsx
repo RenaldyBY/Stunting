@@ -4,31 +4,31 @@ const About = () => {
         nama: "Ahmad Farhan Kholik",
         role: "Orthodontist",
         image:
-          "https://greatnusa.com/wp-content/uploads/2023/05/Contoh-profesionalisme-1200x900.webp",
+          "https://png.pngtree.com/thumb_back/fw800/background/20230810/pngtree-cute-cat-kitten-photography-wallpaper-hd-image_13082970.jpg",
       },
       {
         nama: "Hanifah Eka Cahyani",
         role: "Orthodontist",
         image:
-          "https://greatnusa.com/wp-content/uploads/2023/05/Contoh-profesionalisme-1200x900.webp",
+          "https://png.pngtree.com/thumb_back/fw800/background/20230810/pngtree-cute-cat-kitten-photography-wallpaper-hd-image_13082970.jpg",
       },
       {
         nama: "Hesti Lusita",
         role: "Orthodontist",
         image:
-          "https://greatnusa.com/wp-content/uploads/2023/05/Contoh-profesionalisme-1200x900.webp",
+          "https://png.pngtree.com/thumb_back/fw800/background/20230810/pngtree-cute-cat-kitten-photography-wallpaper-hd-image_13082970.jpg",
       },
       {
         nama: "Moch Dapa Adhari",
         role: "Orthodontist",
         image:
-          "https://greatnusa.com/wp-content/uploads/2023/05/Contoh-profesionalisme-1200x900.webp",
+          ""https://png.pngtree.com/thumb_back/fw800/background/20230810/pngtree-cute-cat-kitten-photography-wallpaper-hd-image_13082970.jpg",
       },
       {
         nama: "Renaldy Baleano Yohzain",
         role: "Orthodontist",
         image:
-          "https://greatnusa.com/wp-content/uploads/2023/05/Contoh-profesionalisme-1200x900.webp",
+          "https://png.pngtree.com/thumb_back/fw800/background/20230810/pngtree-cute-cat-kitten-photography-wallpaper-hd-image_13082970.jpg",
       },
     ];
   
