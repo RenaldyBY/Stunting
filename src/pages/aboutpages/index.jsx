@@ -22,7 +22,7 @@ const About = () => {
         nama: "Moch Dapa Adhari",
         role: "Orthodontist",
         image:
-          ""https://png.pngtree.com/thumb_back/fw800/background/20230810/pngtree-cute-cat-kitten-photography-wallpaper-hd-image_13082970.jpg",
+          "https://png.pngtree.com/thumb_back/fw800/background/20230810/pngtree-cute-cat-kitten-photography-wallpaper-hd-image_13082970.jpg",
       },
       {
         nama: "Renaldy Baleano Yohzain",
