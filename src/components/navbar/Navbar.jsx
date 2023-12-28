@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/icon-stunting 1 (1).png";
 import Button from "../Loginform/Button";
 import NavLinks from "./NavLinks";
 import HamburgerIcon from "../../assets/hamburger.png";
@@ -33,7 +33,7 @@ const Navbar = () => {
     <nav className="bg-white ">
       <div className="flex items-center justify-around font-poppins ">
         <div className="z-30 flex justify-between w-full p-5 md:w-auto">
-          <div className="flex">
+          <div className="flex forced-colors:hidden h-14 w-14 rounded-lg bg-violet-500 mx-2 shadow-lg shadow-indigo-500/50 ">
             <img src={Logo} alt="logo" className="md:cursor-pointer h-14" />
             <h1
               id="Stubting-text"

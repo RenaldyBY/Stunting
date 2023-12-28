@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
-import Logo from "../../assets/Logo.png";
-
+import Logo from "../../assets/icon-stunting 1 (1).png";
+import Logo1 from "../../assets/icon-stunting 1.png";
 const Footer = () => {
   return (
     <footer className="px-4 py-20 text-gray-400 ug-secondary font-poppins">
@@ -15,7 +15,15 @@ const Footer = () => {
             duration={500}
             className="w-32 col-span-2 mb-12 cursor-pointer md:col-span-1"
           >
-            <img src={Logo} alt="Logo" className="-mt-10 h-28" />
+            <div class="forced-colors:hidden h-25 w-20 rounded-lg bg-violet-500 mx-2 shadow-lg shadow-indigo-500/50">
+              <img src={Logo} alt="Logo" className="-mt-10 h-30 " />
+            </div>
+            <a
+              href="#"
+              className="flex mb-3 text-sm font-bold text-4xl transition md:mb-2 hover:text-primary mx-1"
+            >
+              StuntingGuard
+            </a>
           </Link>
           <nav className="mb-8">
             <p className="mb-3 text-xs font-bold tracking-wider uppercase text-black1">
@@ -145,6 +153,17 @@ const Footer = () => {
               Renaldy Baleano Yohzain
             </a>
           </nav>
+        </div>
+        <div class="flex justify-center ...">
+          <div class="forced-colors:hidden h-11 w-11 rounded-lg bg-violet-500  shadow-lg shadow-indigo-500/50">
+          <img src={Logo1} alt="Logo" className="-mt-15 h-30 my-0 mx-0" />
+          </div>
+          <a
+            href="#"
+            className="flex mb-3 text-sm font-bold text-4xl transition md:mb-2 hover:text-primary mx-1 my-3"
+          >
+            StuntingGuard
+          </a>
         </div>
         <p className="text-sm font-medium text-left text-gray-600 md:text-center">
           © Copyright 2023 Vocasia, All Rights Reserved.

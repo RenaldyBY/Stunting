@@ -1,3 +1,4 @@
+// import backgroundImage from "./src/assets/backgroundImage.png";
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -14,6 +15,7 @@ export default {
       },
       backgroundImage: {
         Ellips: "url(./src/assets/circlebg/Ellipse1.png)",
+        'hero-pattern': "url('./src/assets/backgroundImage.png')",
       },
     },
   },
